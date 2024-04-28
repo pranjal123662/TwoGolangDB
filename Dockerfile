@@ -16,4 +16,4 @@ RUN git clone https://github.com/pranjal123662/TwoGolangDB.git
 EXPOSE 7456
 
 # Command to run the executable
-CMD ["./TwoDB"]
+CMD ["nohup", "./TwoDB", "&"]
