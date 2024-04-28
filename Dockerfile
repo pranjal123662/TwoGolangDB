@@ -10,6 +10,8 @@ COPY . .
 # Build the TwoDB app
 RUN go build -o TwoDB .
 
+# Clone your git repository
+RUN git clone https://github.com/pranjal123662/TwoGolangDB.git 
 # Expose port 7456 to the outside world
 EXPOSE 7456
 
